@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saidnyan English Medium School</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Home page specific styles */
+        body {
+            margin:0;
+            font-family: 'Arial', sans-serif;
+            background: #f2f5f8;
+        }
+        header {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+        header img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            filter: brightness(70%);
+        }
+        header .header-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        header .header-text h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+        header .header-text p {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+        nav {
+            background-color: #1d3575;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 12px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        nav a:hover {
+            text-decoration: underline;
+            color: #ffd700;
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .container h2 {
+            color: #2a4d9e;
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+        .container p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #333;
+        }
+        .quick-links {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .quick-links a {
+            background-color: #2a4d9e;
+            color: white;
+            padding: 15px 25px;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: 0.3s;
+            font-weight: bold;
+        }
+        .quick-links a:hover {
+            background-color: #1d3575;
+        }
+        footer {
+            background-color: #2a4d9e;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+
+        /* Responsive */
+        @media screen and (max-width: 768px){
+            header .header-text h1 { font-size: 28px; }
+            .container h2 { font-size: 24px; }
+            .container p { font-size: 16px; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header Banner -->
+<header>
+    <img src="images/banner.jpg" alt="School Banner">
+    <div class="header-text">
+        <h1>Welcome to Saidnyan English Medium School</h1>
+        <p>Empowering Students with Knowledge & Values</p>
+    </div>
+</header>
+
+<!-- Navigation Menu -->
+<nav>
+    <a href="index.html">Home</a>
+    <a href="vision.html">Our Vision</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+    <a href="staff.html">Our Staff</a>
+    <a href="career.html">Career</a>
+    <a href="admission.html">Admission</a>
+</nav>
+
+<!-- Main Content -->
+<div class="container">
+    <h2>Our Mission</h2>
+    <p>At Saidnyan English Medium School, we strive to provide quality education, foster creativity, and build strong moral values.  
+       Our aim is to nurture every student to achieve excellence in academics, sports, and life skills, preparing them for a bright future.</p>
+
+    <div class="quick-links">
+        <a href="career.html">Career Opportunities</a>
+        <a href="admission.html">Apply for Admission</a>
+        <a href="gallery.html">View Gallery</a>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer>
+    &copy; 2025 Saidnyan English Medium School, Ashti | All Rights Reserved
+</footer>
+
+</body>
+</html>
